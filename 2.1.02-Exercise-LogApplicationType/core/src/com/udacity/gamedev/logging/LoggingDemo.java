@@ -9,7 +9,7 @@ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 public class LoggingDemo extends ApplicationAdapter {
 
     // TODO: Give your ApplicationListener a log TAG
-
+    public final static String TAG = LoggingDemo.class.getName();
 
     SpriteBatch batch;
     Texture img;
@@ -21,6 +21,7 @@ public class LoggingDemo extends ApplicationAdapter {
 
         // TODO: Use Gdx.app to find what ApplicationType we're running
         // TODO: Use Gdx.app to log the result
+        Gdx.app.log(TAG, "La plataforma es: " + Gdx.app.getType());
 
     }
 

@@ -17,5 +17,6 @@ public class Constants {
 
 
     // TODO: Add a constant for GigaGal's movement speed
+    public static final float GIGAGAL_MOVE_SPEED = 64;
 
 }

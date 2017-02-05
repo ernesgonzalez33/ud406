@@ -20,13 +20,14 @@ public class Constants {
 
     // TODO: Add constant for GigaGal's jump speed
     // Something around 250 works well.
-
+    public static final float JUMP_SPEED = 250;
 
     // TODO: Add constant for GigaGal's max jump duration
     // Meaning how long you can hold the jump key to continue to jump higher. 0.15 seconds works well
-
+    public static final float MAX_JUMP_DURATION = 0.15f;
 
     // TODO: Add constant for acceleration due to gravity
     // Something like 1000 works well.
+    public static final float GRAVITY = 1000;
 
 }

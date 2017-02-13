@@ -6,6 +6,9 @@ import com.badlogic.gdx.utils.Array;
 import com.badlogic.gdx.utils.viewport.Viewport;
 import com.udacity.gamedev.gigagal.entities.GigaGal;
 import com.udacity.gamedev.gigagal.entities.Platform;
+import com.udacity.gamedev.gigagal.util.Assets;
+import com.udacity.gamedev.gigagal.util.Constants;
+import com.udacity.gamedev.gigagal.util.Utils;
 
 public class Level {
 
@@ -36,7 +39,7 @@ public class Level {
         }
 
         // TODO: Throw an enemy on the screen
-
+        Utils.drawTextureRegion(batch, Assets.instance.enemyAssets.enemy, new Vector2(100, 100), Constants.ENEMY_CENTER);
 
         gigaGal.render(batch);
 

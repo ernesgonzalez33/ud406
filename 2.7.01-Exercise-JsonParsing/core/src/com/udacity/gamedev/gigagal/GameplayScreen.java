@@ -30,8 +30,8 @@ public class GameplayScreen extends ScreenAdapter {
         gameplayViewport = new ExtendViewport(Constants.WORLD_SIZE, Constants.WORLD_SIZE);
 
         // TODO: Comment out the debug level
-//        level = new Level(gameplayViewport);
-//        level.initializeDebugLevel();
+        level = new Level(gameplayViewport);
+        level.initializeDebugLevel();
 
         // TODO: Ask the LevelLoader to load Level1
         level = LevelLoader.load("Level1", gameplayViewport);
